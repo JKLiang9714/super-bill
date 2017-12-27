@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.liangjiakun.superbill.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#6495ed" >
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ellipsize="marquee"
+            android:gravity="center_horizontal|center"
+            android:maxLines="1"
+            android:text="@string/title"
+            android:textColor="#ffffffff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <!--tab上方的显示区域-->
+    <FrameLayout
+        android:id="@+id/mHomeContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_titlebar">
+    </FrameLayout>
+
+    <!--底下的三个tab-->
+    <RadioGroup
+        android:id="@+id/mHomeRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@color/tab_bg">
+
+        <RadioButton
+            android:id="@+id/mHomeBillRb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/home_bill"
+            android:layout_marginTop="4dp"
+            android:textSize="12sp"
+            android:textColor="@drawable/selector_tab_text_color"
+            android:background="@color/tab_bg"
+            android:drawableTop="@drawable/selector_tab_bill"
+            />
+
+        <RadioButton
+            android:id="@+id/mHomeWriteRb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/home_write"
+            android:layout_marginTop="4dp"
+            android:textSize="12sp"
+            android:textColor="@drawable/selector_tab_text_color"
+            android:background="@color/tab_bg"
+            android:drawableTop="@drawable/selector_tab_write"
+            />
+
+        <RadioButton
+            android:id="@+id/mHomeStaticRb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/home_static"
+            android:layout_marginTop="4dp"
+            android:textSize="12sp"
+            android:textColor="@drawable/selector_tab_text_color"
+            android:background="@color/tab_bg"
+            android:drawableTop="@drawable/selector_tab_static"
+            android:checked="true"
+            />
+    </RadioGroup>
+
+</RelativeLayout>

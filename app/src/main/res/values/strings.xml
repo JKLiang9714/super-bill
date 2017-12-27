@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">超级记账本</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!--HomeActivity-->
+    <string name="home_bill">账本</string>
+    <string name="home_write">记一笔</string>
+    <string name="home_static">统计</string>
+
+    <string name="write_out">支出</string>
+    <string name="write_in">收入</string>
+
+    <string name="title">账本</string>
+
+    <string name="pic1">服装</string>
+    <string name="pic2">饮食</string>
+    <string name="pic3">住房</string>
+    <string name="pic4">交通</string>
+    <string name="pic5">生活</string>
+    <string name="pic6">健康</string>
+    <string name="pic7">通讯</string>
+    <string name="pic8">娱乐</string>
+    <string name="pic9">孩子</string>
+    <string name="pic10">父母</string>
+    <string name="pic11">红包</string>
+    <string name="pic12">彩票</string>
+    <string name="pic13">交易</string>
+    <string name="pic14">人情</string>
+    <string name="pic15">其他</string>
+
+    <string name="pic16">工资</string>
+    <string name="pic17">奖金</string>
+    <string name="pic18">补助</string>
+    <string name="pic19">报销</string>
+    <string name="pic20">兼职</string>
+    <string name="pic21">交易</string>
+</resources>
